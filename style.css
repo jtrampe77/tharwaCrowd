@@ -1,0 +1,73 @@
+/* Global Styles */
+
+html{
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/********************** Nav styles **********************/
+.site-nav img{
+    width: 62px;
+    height: 62px;
+}
+
+.site-nav{
+    border-bottom: 1px solid #A7A5A6;
+}
+
+.site-nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 64px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.nav-buttons li a{
+    width: 192px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.login{
+    color: #003C8C;
+    border: 1px solid #003C8C;
+}
+
+.signup{
+    color: #003C8C;
+    background-color: #FF924C;
+}
+
+
+/********************* Hero ***************** */
+
