@@ -219,12 +219,43 @@ h2{
 
 
 /********************* How it works ***************** */
+.how-it-works{
+    background-color: #E5ECF7;
+    padding: 64px 0;
+}
+
+.inner-how-it-works{
+    margin: 64px;
+}
+
+.card-how-it-works img{
+    width: 70px;
+    height: 70px;
+}
 
 
+.cards-how-it-works{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
 
+.cards-how-it-works h4{
+    font-size: 24px;
+    font-weight: 500;
+}
 
+.card-how-it-works{
+    width: 416px;
+    background-color: #FAFAFA;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #1414141A;
+}
 
-
-
-
+.card-how-it-works a{
+    width: 100%;
+    margin-top: 32px;
+}
 
