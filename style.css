@@ -202,3 +202,29 @@ h2{
     flex-direction: column;
     justify-content: space-around;
 }
+
+
+/********************* Collaborated ***************** */
+
+.collab{
+    margin: 64px;
+}
+
+.images-collab{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/********************* How it works ***************** */
+
+
+
+
+
+
+
+
+
