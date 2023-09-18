@@ -122,15 +122,17 @@ h2{
     background-color: #003C8C;
     color: white;
     margin: 64px 0;
+    height: 50vh;
 }
 
 .hero-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left-hero div{
-    width: 528px;
+    /* width: 528px; */
     padding: 116px 0;
     margin-left: 64px;
 }
@@ -152,6 +154,7 @@ h2{
 .right-hero{
     background: url('/img/buildings.png');
     width: 100%;
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -196,6 +199,8 @@ h2{
 .inner-about{
     display: flex;
     gap: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .inner-about ul{
