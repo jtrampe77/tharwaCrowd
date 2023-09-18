@@ -72,6 +72,10 @@ h2{
     gap: 4rem;
 }
 
+.nav-links a{
+    color: black;
+}
+
 .nav-buttons{
     display: flex;
     gap: 16px;
@@ -193,4 +197,8 @@ h2{
     margin-bottom: 16px;
 }
 
-
+.inner-about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
