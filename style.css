@@ -47,6 +47,19 @@ h2{
     background-color: none;
 }
 
+.primary-btn{
+    color: #003C8C;
+    background-color: #FF924C;
+    width: 192px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
 
 /********************** Nav styles **********************/
 .site-nav img{
@@ -259,3 +272,23 @@ h2{
     margin-top: 32px;
 }
 
+
+/********************* Ready to invest ***************** */
+
+.ready-to-invest{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+    padding: 64px 0;
+}
+
+.ready-to-invest h2{
+    margin: 0;
+}
+
+.ready-to-invest p{
+    margin-bottom: 48px;
+}
