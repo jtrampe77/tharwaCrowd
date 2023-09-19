@@ -20,6 +20,7 @@ ul{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 p{
@@ -271,9 +272,9 @@ h2{
 }
 
 
-/********************* Ready to invest ***************** */
+/********************* Ready to invest / Contact Us ***************** */
 
-.ready-to-invest{
+.ready-to-invest, .contact-us{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -283,11 +284,11 @@ h2{
     padding: 64px 0;
 }
 
-.ready-to-invest h2{
+.ready-to-invest h2, .contact-us h2{
     margin: 0;
 }
 
-.ready-to-invest p{
+.ready-to-invest p, .contact-us p{
     margin-bottom: 48px;
 }
 
@@ -322,4 +323,5 @@ h2{
 }
 
 
-/********************* Contact us ***************** */
+/********************* Footer ***************** */
+
