@@ -5,7 +5,7 @@ html{
     font-size: 18px;
 }
 
-.site-nav-content, .hero-content, .about, .collab, .inner-how-it-works, .faq{
+.site-nav-content, .hero-content, .about, .collab, .inner-how-it-works, .faq, .footer-content,  .footer-links{
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -38,6 +38,8 @@ h2{
     line-height: 60px;
     color: #003C8C;
 }
+
+h5{font-size: 20px;}
 
 .secondary-btn{
     color: #003C8C;
@@ -325,3 +327,68 @@ h2{
 
 /********************* Footer ***************** */
 
+ footer{
+    background-color: #DCE3ED;
+    padding: 64px;
+ }
+
+ .footer-content{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .footer-content li{
+    cursor: pointer;
+ }
+
+
+ .left-footer{
+    width: 40%;
+ }
+
+ #email{
+    width: 320px;
+    height: 56px;
+    border-radius: 5px;
+ }
+
+ .send-email{
+    display: flex;
+    gap: 16px;
+ }
+
+
+
+ .right-footer{
+    display: flex;
+    gap: 2rem;
+
+ }
+
+ .right-footer div{
+    width: 40%;
+ }
+
+ .quick-links ul, .contacts-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+ }
+
+
+ .footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+ }
+
+ .social-media-icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+ }
+
+ .social-media-icons li{
+    cursor: pointer;
+ }
