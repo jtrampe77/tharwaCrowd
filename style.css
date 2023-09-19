@@ -6,8 +6,9 @@ html{
 }
 
 .site-nav-content, .hero-content, .about, .collab, .inner-how-it-works, .faq, .footer-content,  .footer-links{
-    max-width: 1920px;
+    max-width: 70vw;
     margin: 0 auto;
+    width: 100%;
 }
 
 li{
@@ -392,3 +393,59 @@ h5{font-size: 20px;}
  .social-media-icons li{
     cursor: pointer;
  }
+
+/* Media queries */
+
+
+  /* Styles for screens smaller than 480px (e.g., smartphones) */
+@media screen and (max-width: 479px) {
+    /* CSS styles for screens up to 479px wide */
+  }
+  
+  /* Styles for screens between 480px and 767px (e.g., small tablets) */
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    /* CSS styles for screens between 480px and 767px wide */
+  }
+  
+  /* Styles for screens between 768px and 991px (e.g., larger tablets) */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles for screens between 768px and 991px wide */
+  }
+  
+  /* Styles for screens between 992px and 1199px (e.g., laptops and desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS styles for screens between 992px and 1199px wide */
+    .site-nav-content, .hero-content, .about, .collab, .inner-how-it-works, .faq, .footer-content,  .footer-links{
+        max-width: 90vw;
+        margin: 0 auto;
+        width: 100%;
+    }        
+    .hero{
+        height: 60vh;
+    }
+    .right-hero{
+        background: url('/img/buildings.png');
+        width: 100%;
+        /* height: 50vh; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    
+    .bot-right-hero h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .bot-right-hero .stats{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* gap: 8px; */
+        padding-right: 1rem;
+    }
+    
+
+  }
+  
